@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port on which the web server will listen
-EXPOSE 8080
+EXPOSE 8888
 
 # Define the command to start the web server
 CMD ["python", "app.py"]
